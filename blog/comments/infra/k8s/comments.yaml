@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+  name: comments
+spec:
+  containers:
+    - name: comments
+      image: clown901217/comments:0.0.2
