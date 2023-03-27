@@ -35,7 +35,7 @@ const start = async () => {
             .then(() => {
                 console.log('Connected!')
                 app.listen(3000, () => {
-                    console.log('Listening on port 3000!!!!');
+                    console.log('Listening on port 3000!!!');
                 });
             });
     } catch (error) {
